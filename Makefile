@@ -1,5 +1,6 @@
 # general Makefile
 
+TOP=$(shell pwd)
 include Makefile.common
 LDFLAGS=$(COMMONFLAGS) -fno-exceptions -ffunction-sections -fdata-sections -L$(LIBDIR) -nostartfiles -Wl,--gc-sections,-Tlinker.ld
 

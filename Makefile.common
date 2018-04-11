@@ -32,7 +32,7 @@
 
 #TOP=$(shell readlink -f "$(dir $(lastword $(MAKEFILE_LIST)))")
 #TOP=/Users/xqingqin/Downloads/STM32/mac_stm32/0002_Test_Template
-TOP=/home/xuqnqn/work/mac_stm32/0002_Test_Template
+#TOP=/home/xuqnqn/work/mac_stm32/0002_Test_Template
 PROGRAM=main
 LIBDIR=$(TOP)/libs
 

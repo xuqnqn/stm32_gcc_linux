@@ -1,5 +1,6 @@
 # libs Makefile
 
+TOP=$(shell pwd)/../
 include ../Makefile.common
 LIBS+=libstm32.a
 CFLAGSlib+=-c

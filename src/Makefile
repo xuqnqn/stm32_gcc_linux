@@ -1,5 +1,6 @@
 # src Makefile
 
+TOP=$(shell pwd)/../
 include ../Makefile.common
 
 OBJS+=startup.o
